@@ -1,0 +1,8 @@
+Install node.js and npm:sudo apt update
+sudo apt install -y nodejs npm
+Create the project directory:mkdir project-root
+cd project-root
+Initialize the project and install packages:npm init -y
+npm install express axios express-rate-limit helmet cors csurf cookie-parser sanitize-html @walletconnect/sign-client @walletconnect/modal winston
+Install certbot:sudo apt install -y certbot python3-certbot-nginx
+Obtain certificates:sudo certbot certonly --standalone -d dcdollarcoin.u
